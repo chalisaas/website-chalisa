@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PARACHUTE - GOLF le FLEUR*</title>
+    <link rel="icon" type="image/x-icon" href="logo le fleur.jpg">
+    <link rel="stylesheet" type="text/css" href="parachute-menu.css">
+</head>
+<body>
+    <header >
+        <div class="navbar">
+            <div class="nav-logo">
+                <img src="logo le fleur.jpg" width="60px" height="70px">
+            </div>
+            <div class="nav-container">
+                <div class="nav-item">
+                    <h1>le FLEUR*</h1>
+                </div>
+                <div class="menu">
+                   <ul>
+                        <li><h4><a href="index.html">Home</a></li></h4>
+                        <li><h4><a href="project menu2.html">Menu</a></li></h4>
+                        <li><h4><a href="https://www.instagram.com/lefleur/">About Us</a></li></h4>
+                        <li><h4><a href="project main2.html">collections</a></li></h4>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <center><h3>PARACHUTE</h3></center>
+    <br>
+    <center><a>June 11, 2024</a></center>
+    <div class="carousel">
+        <div class="carousel-slides">
+            <div class="slide active">
+                <img src="parachute1.webp" alt="Gambar 1">
+            </div>
+            <div class="slide">
+                <img src="parachute2.webp" alt="Gambar 2">
+            </div>
+            <div class="slide">
+                <img src="parachute3.webp" alt="Gambar 3">
+            </div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+    <script>
+        let slideIndex = 0;
+
+function showSlide(index) {
+    const slides = document.querySelectorAll('.slide');
+    if (index >= slides.length) {
+        slideIndex = 0;
+    } else if (index < 0) {
+        slideIndex = slides.length - 1;
+    } else {
+        slideIndex = index;
+    }
+    const offset = -slideIndex * 100;
+    document.querySelector('.carousel-slides').style.transform = `translateX(${offset}%)`;
+}
+
+function changeSlide(n) {
+    showSlide(slideIndex + n);
+}
+
+showSlide(slideIndex);
+    </script>
+     <footer>
+        <div class="footer">
+            <h3><a><center>GOLF le FLEUR*</center></a></h3>
+            <center><p>&copy; This is not the official website of GOLF le FLEUR*</p></center>
+        </div>
+    </footer>
+</body>
+</html>

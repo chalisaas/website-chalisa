@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Oranienbaum&family=Prata&family=Prociono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    line-height: 1.6;
+}
+
+.navbar1 {
+    width: 100%;
+    height: 90%;
+    font-family: "Newsreader", serif;
+}
+.navbar {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin-bottom: 5px;
+    background-color: white;
+
+}
+
+.nav-container {
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    padding: 1% 0 1% 0;
+}
+
+.nav-logo img {float: left;
+    padding: auto;
+    margin-left: 30px;
+    margin-top: 5px;
+    
+
+}
+
+.nav-item {
+    width: 30%;
+    height: 50px;
+    float: left;
+    color: black;
+    font-family: cursive;
+    align-items: center;
+    margin-left: 35px;
+}
+
+
+.menu{
+    width: 55%;
+    height: 50px;
+    float: right;
+    color: black;
+    font-family: cursive;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    float: left;
+}
+
+
+.menu li{   
+    float: left;
+    padding-right:20px;
+    margin-left:40px;
+    margin-top: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.all-images {
+    margin-top: 150px;
+    height: 2000px;
+
+}
+.image1 {
+    width: 350px;
+    height: 450px;
+    margin-left: 90px;
+    float: left;
+    opacity: 1.0;
+}
+
+.image1 :hover {
+    opacity: 0.8;
+}
+
+.image2 {
+    width: 350px;
+    height: 450px;
+    margin-left: 20px;
+    float: left;
+    opacity: 1.0;
+}
+
+.image2:hover {
+    opacity: 0.8;
+}
+
+.image3 {
+    width: 350px;
+    height: 450px;
+    margin-left: 20px;
+    float: left;
+    opacity: 1.0;
+}
+
+.image3:hover {
+    opacity: 0.8;
+}
+
+.image4 {
+    width: 350px;
+    height: 450px;
+    margin-left: 90px;
+    float: left;
+    opacity: 1.0;
+    margin-top: 10px;
+}
+
+.image4:hover {
+    opacity: 0.8;
+}
+
+.image5 {
+    width: 350px;
+    height: 450px;
+    margin-left: 20px;
+    float: left;
+    opacity: 1.0;
+    margin-top: 10px;
+}
+
+.image5:hover {
+    opacity: 0.8;
+}
+
+.image6 {
+    width: 350px;
+    height: 450px;
+    margin-left: 20px;
+    float: left;
+    opacity: 1.0;
+    margin-top: 10px;
+}
+
+.image6:hover {
+    opacity: 0.8;
+}
+.image7 {
+    width: 350px;
+    height: 450px;
+    margin-left: 90px;
+    float: left;
+    opacity: 1.0;
+    margin-top: 10px;
+}
+
+.image7:hover {
+    opacity: 0.8;
+}
+
+.image8 {
+    width: 350px;
+    height: 450px;
+    margin-left: 20px;
+    float: left;
+    opacity: 1.0;
+    margin-top: 10px;
+}
+
+.image8:hover {
+    opacity: 0.8;
+}
+.image9 {
+    width: 350px;
+    height: 450px;
+    margin-left: 20px;
+    float: left;
+    opacity: 1.0;
+    margin-top: 10px;
+}
+
+.image9:hover {
+    opacity: 0.8;
+}
+
+.image10 {
+    width: 350px;
+    height: 450px;
+    margin-left: 90px;
+    float: left;
+    opacity: 1.0;
+    margin-top: 10px;
+}
+
+.image10:hover {
+    opacity: 0.8;
+}
+
+.image11 {
+    width: 350px;
+    height: 450px;
+    margin-left: 20px;
+    float: left;
+    opacity: 1.0;
+    margin-top: 10px;
+}
+
+.image11:hover {
+    opacity: 0.8;
+}
+.image12 {
+    width: 350px;
+    height: 450px;
+    margin-left: 20px;
+    float: left;
+    opacity: 1.0;
+    margin-top: 10px;
+}
+
+.image12:hover {
+    opacity: 0.8;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+    padding: 2em 0;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer a {
+    margin-top:250px;
+    line-height: 2px;
+}

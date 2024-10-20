@@ -1,0 +1,985 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Oranienbaum&family=Prata&family=Prociono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+
+.nav-container {
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    padding: 1% 0 1% 0;
+}
+
+.nav-logo img {float: left;
+    padding: auto;
+    margin-left: 30px;
+    margin-top: 5px;
+    
+
+}
+
+.nav-item {
+    width: 30%;
+    height: 50px;
+    float: left;
+    color: black;
+    font-family: cursive;
+    align-items: center;
+    margin-left: 35px;
+}
+
+
+.menu{
+    width: 55%;
+    height: 50px;
+    float: right;
+    color: black;
+    font-family: cursive;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    float: left;
+}
+
+
+.menu li{   
+    float: left;
+    padding-right:20px;
+    margin-left:40px;
+    margin-top: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.textmain {
+    margin: auto;
+    width: 100%;
+    height: 100px;
+}
+
+.image1 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image1:hover {
+    opacity: 0.8;
+}
+.image1:hover img {
+    transform: scale(1.1);
+}
+.text-main {
+    margin-top: 50px;
+}
+
+.image1:hover {
+    background-color: white;
+}
+
+.image2 {
+    width: 350px;
+    height: 450px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image2:hover {
+    opacity: 0.8;
+}
+.image2:hover img {
+    transform: scale(1.1);
+}
+
+.image3 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image3:hover {
+    opacity: 0.8;
+}
+.image3:hover img {
+    transform: scale(1.1);
+}
+
+.image4 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image4:hover {
+    opacity: 0.8;
+}
+.image4:hover img {
+    transform: scale(1.1);
+}
+.image5 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image5:hover {
+    opacity: 0.8;
+}
+.image5:hover img {
+    transform: scale(1.1);
+}
+
+.image6 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image6:hover {
+    opacity: 0.8;
+}
+.image6:hover img {
+    transform: scale(1.1);
+}
+
+.image7 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image7:hover {
+    opacity: 0.8;
+}
+.image7:hover img {
+    transform: scale(1.1);
+}
+
+.image8 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image8:hover {
+    opacity: 0.8;
+}
+.image8:hover img {
+    transform: scale(1.1);
+}
+
+.image9 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image9:hover {
+    opacity: 0.8;
+}
+.image9:hover img {
+    transform: scale(1.1);
+}
+
+.image10 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image10:hover {
+    opacity: 0.8;
+}
+.image10:hover img {
+    transform: scale(1.1);
+}
+
+.image11 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image11:hover {
+    opacity: 0.8;
+}
+.image11:hover img {
+    transform: scale(1.1);
+}
+
+.image12 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image12:hover {
+    opacity: 0.8;
+}
+.image12:hover img {
+    transform: scale(1.1);
+}
+
+.image13 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image13:hover {
+    opacity: 0.8;
+}
+.image13:hover img {
+    transform: scale(1.1);
+}
+
+.image14 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image14:hover {
+    opacity: 0.8;
+}
+.image14:hover img {
+    transform: scale(1.1);
+}
+
+.image15 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image15:hover {
+    opacity: 0.8;
+}
+.image15:hover img {
+    transform: scale(1.1);
+}
+
+.image16 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image16:hover {
+    opacity: 0.8;
+}
+.image16:hover img {
+    transform: scale(1.1);
+}
+
+.image17 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image17:hover {
+    opacity: 0.8;
+}
+.image17:hover img {
+    transform: scale(1.1);
+}
+
+.image18 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image18:hover {
+    opacity: 0.8;
+}
+.image18:hover img {
+    transform: scale(1.1);
+}
+
+.image19 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image19:hover {
+    opacity: 0.8;
+}
+.image19:hover img {
+    transform: scale(1.1);
+}
+
+.image20 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image20:hover {
+    opacity: 0.8;
+}
+.image20:hover img {
+    transform: scale(1.1);
+}
+
+.image21 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image21:hover {
+    opacity: 0.8;
+}
+.image21:hover img {
+    transform: scale(1.1);
+}
+
+.image22 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image22:hover {
+    opacity: 0.8;
+}
+.image22:hover img {
+    transform: scale(1.1);
+}
+
+.image23 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image23:hover {
+    opacity: 0.8;
+}
+.image23:hover img {
+    transform: scale(1.1);
+}
+
+.image24 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image24:hover {
+    opacity: 0.8;
+}
+.image24:hover img {
+    transform: scale(1.1);
+}
+
+.image25 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image25:hover {
+    opacity: 0.8;
+}
+.image25:hover img {
+    transform: scale(1.1);
+}
+
+.image26 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image26:hover {
+    opacity: 0.8;
+}
+.image26:hover img {
+    transform: scale(1.1);
+}
+
+.image27 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image27:hover {
+    opacity: 0.8;
+}
+.image27:hover img {
+    transform: scale(1.1);
+}
+
+.image28 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image28:hover {
+    opacity: 0.8;
+}
+.image28:hover img {
+    transform: scale(1.1);
+}
+
+.image29 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image29:hover {
+    opacity: 0.8;
+}
+.image29:hover img {
+    transform: scale(1.1);
+}
+
+.image30 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image30:hover {
+    opacity: 0.8;
+}
+.image30:hover img {
+    transform: scale(1.1);
+}
+
+.image31 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image31:hover {
+    opacity: 0.8;
+}
+.image31:hover img {
+    transform: scale(1.1);
+}
+
+.image32 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image32:hover {
+    opacity: 0.8;
+}
+.image32:hover img {
+    transform: scale(1.1);
+}
+
+.image33 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image33:hover {
+    opacity: 0.8;
+}
+.image33:hover img {
+    transform: scale(1.1);
+}
+
+.image34 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image34:hover {
+    opacity: 0.8;
+}
+.image34:hover img {
+    transform: scale(1.1);
+}
+
+.image35 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image35:hover {
+    opacity: 0.8;
+}
+.image35:hover img {
+    transform: scale(1.1);
+}
+
+.image36 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image36:hover {
+    opacity: 0.8;
+}
+.image36:hover img {
+    transform: scale(1.1);
+}
+
+.image37 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image37:hover {
+    opacity: 0.8;
+}
+.image37:hover img {
+    transform: scale(1.1);
+}
+
+.image38 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image38:hover {
+    opacity: 0.8;
+}
+.image38:hover img {
+    transform: scale(1.1);
+}
+
+.image39 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image39:hover {
+    opacity: 0.8;
+}
+.image39:hover img {
+    transform: scale(1.1);
+}
+
+.image40 {
+    width: 350px;
+    height: 450px;
+    padding: 50px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image40:hover {
+    opacity: 0.8;
+}
+.image40:hover img {
+    transform: scale(1.1);
+}
+
+.image41 {
+    width: 350px;
+    height: 450px;
+    padding: 50px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image41:hover {
+    opacity: 0.8;
+}
+.image41:hover img {
+    transform: scale(1.1);
+}
+
+.image42 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image42:hover {
+    opacity: 0.8;
+}
+.image42:hover img {
+    transform: scale(1.1);
+}
+
+.image43 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image43:hover {
+    opacity: 0.8;
+}
+.image43:hover img {
+    transform: scale(1.1);
+}
+
+.image44 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image44:hover {
+    opacity: 0.8;
+}
+.image44:hover img {
+    transform: scale(1.1);
+}
+
+.image45 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image45:hover {
+    opacity: 0.8;
+}
+.image45:hover img {
+    transform: scale(1.1);
+}
+
+.image46 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image46:hover {
+    opacity: 0.8;
+}
+.image46:hover img {
+    transform: scale(1.1);
+}
+
+.image47 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image47:hover {
+    opacity: 0.8;
+}
+.image47:hover img {
+    transform: scale(1.1);
+}
+
+.image48 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image48:hover {
+    opacity: 0.8;
+}
+.image48:hover img {
+    transform: scale(1.1);
+}
+
+.image49 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image49:hover {
+    opacity: 0.8;
+}
+.image49:hover img {
+    transform: scale(1.1);
+}
+
+.image50 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image50:hover {
+    opacity: 0.8;
+}
+.image50:hover img {
+    transform: scale(1.1);
+}
+
+.image51 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image51:hover {
+    opacity: 0.8;
+}
+.image51:hover img {
+    transform: scale(1.1);
+}
+
+.image52 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image52:hover {
+    opacity: 0.8;
+}
+.image52:hover img {
+    transform: scale(1.1);
+}
+
+.image53 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image53:hover {
+    opacity: 0.8;
+}
+.image53:hover img {
+    transform: scale(1.1);
+}
+
+.image54 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image54:hover {
+    opacity: 0.8;
+}
+.image54:hover img {
+    transform: scale(1.1);
+}
+
+.image55 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left:450px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.image55:hover {
+    opacity: 0.8;
+}
+.image55:hover img {
+    transform: scale(1.1);
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+    padding: 2em 0;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer a {
+    margin-top:250px;
+    line-height: 2px;
+}

@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Oranienbaum&family=Prata&family=Prociono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    position: fixed;
+    /* margin: 20px; */
+    top: 0;
+    height: 80px;
+    width: 100%;
+    /* border-radius: 20px; */
+    background-color: white;
+}
+
+.nav-container {
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    padding: 1% 0 1% 0;
+}
+
+.nav-logo img {float: left;
+    padding: auto;
+    margin-left: 30px;
+    margin-top: 5px;
+    
+
+}
+
+.nav-item {
+    width: 30%;
+    height: 50px;
+    float: left;
+    color: black;
+    font-family: cursive;
+    align-items: center;
+    margin-left: 35px;
+}
+
+
+.menu{
+    width: 55%;
+    height: 50px;
+    float: right;
+    color: black;
+    font-family: cursive;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    float: left;
+}
+
+
+.menu li{   
+    float: left;
+    padding-right:20px;
+    margin-left:40px;
+    margin-top: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.video {
+    width: 50%;
+    height: 450px;
+    align-items: center;
+    margin-top: 50px;
+    align-items: center;
+    margin-left: 300px;
+}
+
+.video video {
+    align-items: center                 ;
+    margin-top: 50px;
+}
+
+.text1 {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-size-adjust: 50px;
+}
+
+.text2 {
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+    text-align: center;
+    text-size-adjust: 50px;
+}
+
+.shop1 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.shop1:hover {
+    opacity: 0.8;
+}
+.shop1:hover img {
+    transform: scale(1.1);
+}
+
+.shop2 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.shop2:hover {
+    opacity: 0.8;
+}
+.shop2:hover img {
+    transform: scale(1.1);
+}
+
+.text-main {
+    margin-top: 50px;
+}
+
+.shop3 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.shop3:hover {
+    opacity: 0.8;
+}
+.shop3:hover img {
+    transform: scale(1.1);
+}
+
+.text-main {
+    margin-top: 50px;
+}
+
+.shop4 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.shop4:hover {
+    opacity: 0.8;
+}
+.shop4:hover img {
+    transform: scale(1.1);
+}
+
+.all {
+    height: 400px;
+}
+.text-main {
+    margin-top: 50px;
+}
+
+.shop5 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.shop5:hover {
+    opacity: 0.8;
+}
+.shop5:hover img {
+    transform: scale(1.1);
+}
+
+.shop6 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.shop6:hover {
+    opacity: 0.8;
+}
+.shop6:hover img {
+    transform: scale(1.1);
+}
+
+.shop7 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 450px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.shop7:hover {
+    opacity: 0.8;
+}
+.shop7:hover img {
+    transform: scale(1.1);
+}
+
+.shop8 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.shop8:hover {
+    opacity: 0.8;
+}
+.shop8:hover img {
+    transform: scale(1.1);
+}
+
+.shop9 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.shop9:hover {
+    opacity: 0.8;
+}
+.shop9:hover img {
+    transform: scale(1.1);
+}
+
+.shop10 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 450px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.shop10:hover {
+    opacity: 0.8;
+}
+.shop10:hover img {
+    transform: scale(1.1);
+}
+
+.shop7n {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 50px;
+    float: left;
+    background-color:rgb(253, 246, 252);
+}
+
+.shop7n:hover {
+    opacity: 0.8;
+}
+.shop7n:hover img {
+    transform: scale(1.1);
+}
+
+.text-main {
+    margin-top: 50px;
+}
+
+.shop5:hover {
+    background-color: white;
+}
+
+.video1 {
+    width: 100%;
+    height: 900px;
+    align-items: center;
+    margin-top: 50px;
+    align-items: center;
+    margin-left: 300px;
+}
+
+.video2 {
+    width: 40%;
+    height: 400px;
+    align-items: center;
+    margin-top: 50px;
+    align-items: center;
+    margin-left: 300px;
+}
+
+.video video {
+    align-items: center                 ;
+    margin-top: 50px;
+}
+
+.text3 {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-size-adjust: 50px;
+}
+
+.text4 {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-size-adjust: 50px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+    padding: 2em 0;
+    background-color: white;
+    bottom: 0;
+    position: fixed;
+}
+
+.footer a {
+    margin-top:250px;
+    line-height: 2px;
+}
